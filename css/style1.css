@@ -31,8 +31,8 @@
 
 .btn::before {
     margin-right: 5px;
-    background: url(/images/laughing.png) center/cover no-repeat;
-    background-image: url(/images/laughing.png);
+    background: url(../images/laughing.png) center/cover no-repeat;
+    background-image: url(../images/laughing.png);
 }
 
 .btn::after {
@@ -41,14 +41,14 @@
     left: 30px;
     background: url(/images/bun-bread.png) center/cover no-repeat;
     transform: translateY(calc(-50% + 35px));
-    background-image: url(/images/bun-bread.png);
+    background-image: url(../images/bun-bread.png);
 }
 
 .btn:active::before {
-    background-image: url(/images/bun-bread.png);
+    background-image: url(../images/bun-bread.png);
 }
 
 .btn:active::after {
-    background-image: url(/images/another-image2.png);
+    background-image: url(../images/bun-bread.png);
 }
 
