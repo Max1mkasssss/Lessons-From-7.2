@@ -1,5 +1,5 @@
 @import url(/css/base/vars.css);
-@import url(/css/base/fonts.css);
+@import url(./css/base/fonts.css);
 
 .btn {
     display: inline-flex;
