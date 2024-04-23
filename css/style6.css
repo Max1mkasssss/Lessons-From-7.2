@@ -1,2 +1,41 @@
 @import url(/css/base/vars.css);
 @import url(/css/base/fonts.css);
+
+.wrapper{ 
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: whitesmoke;
+    display: flex;
+}
+.box{ 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: box-animation infinite 10s; 
+}
+@keyframes box-animation{ 
+    0%{ 
+        background-color: red;
+        margin: 0;
+    }
+    25%{ 
+        background-color: blue;
+        margin-top: 400px;
+        margin-left: 0; 
+    }
+    50%{ 
+        background-color: green;
+        margin-top: 400px;
+        margin-left: 400px;
+    }
+    75%{
+        background-color: yellow;
+        margin-top: 0; 
+        margin-left: 400px;
+    }
+    100%{ 
+        background-color: red;
+        margin: 0;
+    }
+}
