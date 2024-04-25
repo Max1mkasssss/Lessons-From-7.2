@@ -13,7 +13,7 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: box-animation infinite 10s; 
+    animation: box-animation infinite 3s; 
 }
 @keyframes box-animation{ 
     0%{ 
